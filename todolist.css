@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 로고 */
+#logo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: orange;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#search-box {
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* 할 일 입력창 - 체크 아이콘 */
+#search-check {
+    width: 120px;
+    font-size: 25px;
+    margin-left: 5px;
+    padding: 5px;
+    color: orange;
+}
+
+/* 할 일 입력창 */
+#input-list {
+    width: 380px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    
+}
+
+#input-list::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#todobox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+/* 할일 목록 */
+#list-box {
+    width: 100%;
+    min-height: 120px;
+    max-height: 1200px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* 할 일 */
+.todolist {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+/* 할 일 체크 버튼 */
+.todo-check {
+    font-size: 25px;
+    width: 50px;
+    color: lightgray;
+    border: none;
+}
+/* 할 일 */
+.todo {
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
+}
+.todo-delete {
+    margin-right: 15px;
+    align-items: center;
+    border: none;
+}
+/* 아래 메뉴 */
+#under-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+#items-left {
+    margin: 15px;
+    font-size: 13px;
+}
+button {
+    background-color: white;
+    cursor: pointer;
+}
+#btn-all {
+    padding: 3px 7px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#btn-active {
+    padding: 3px 7px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#btn-completed {
+    padding: 3px 7px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#btn-clear {
+    border: none;
+    margin: 15px;
+}

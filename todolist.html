@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todolist.css">
+    <script src="https://kit.fontawesome.com/b861b957bc.js" crossorigin="anonymous"></script>'
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div id="logo">
+            <h1>TODO</h1>
+        </div>
+
+        <div id="todobox">
+            <div id="search-box">
+                <div class="fa-solid fa-check" id="search-check"></div>
+                <input type="text" id="input-list" placeholder="해야 할 일을 입력해주세요.">
+            </div>
+            <div id="list-box">
+                <!-- <div class="todolist">
+                    <button class="todo-check fa-regular fa-circle-check" type="button"></button>
+                    <span class="todo"></span>
+                    <button class="todo-delete fa-solid fa-x" type="button"></button>
+                </div>
+                <div class="todolist">
+                    <button class="todo-check fa-regular fa-circle-check" type="button"></button>
+                    <span class="todo"></span>
+                    <button class="todo-delete fa-solid fa-x" type="button"></button>
+                </div> -->
+
+            </div>
+
+            <div id="under-menu">
+                <span id="items-left">items left</span>
+                <button type="button" id="btn-all">All</button>
+                <button type="button" id="btn-active">Active</button>
+                <button type="button" id="btn-completed">Completed</button>
+                <button type="button" id="btn-clear">Clear Completed</button>
+            </div>
+        </div>
+    </div>
+    <script src="./todolist.js"></script>
+</body>
+</html>
+
+
